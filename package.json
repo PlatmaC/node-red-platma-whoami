@@ -1,0 +1,49 @@
+{
+  "name": "@platmac/node-red-platma-whoami",
+  "version": "1.0.0",
+  "description": "NA node for receiving personal information of the Platma user.",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/platma-whoami_spec.js"
+  },
+  "keywords": [
+    "node-red",
+    "platma",
+    "whoami"
+  ],
+  "homepage": "https://github.com/PlatmaC/node-red-platma-whoami",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlatmaC/node-red-platma-whoami.git"
+  },
+  "author": "Hooke <platma@platma.com>",
+  "license": "ISC",
+  "node-red": {
+    "version": ">=2.0.0",
+    "nodes": {
+      "novaposhta-track": "platma-whoami.js"
+    }
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "node-red": "^3.0.2",
+    "node-red-node-test-helper": "^0.3.2",
+    "prettier": "^2.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/PlatmaC/node-red-platma-whoami/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}

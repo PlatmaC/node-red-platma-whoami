@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    RED.nodes.registerType('platma-whoami',{
+        category: 'function',
+        color: '#aff3e3',
+        defaults: {},
+        inputs:1,
+        outputs:1,
+        outputLabels: [],
+        icon: "white-globe.svg",
+        config: {},
+        label: function () {
+            return this.name;
+        },
+    });
+</script>
+
+<script type="text/html" data-help-name="platma-whoami">
+    <p>This node is designed to retrieve user information from Platma.</p>
+    <p>It is intended for use with authenticated user requests from Platma.</p>
+</script>
